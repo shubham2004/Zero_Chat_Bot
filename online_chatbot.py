@@ -21,7 +21,7 @@ r = sr.Recognizer()
 path='D:\projects\chat.txt'
 from nltk.stem.lancaster import LancasterStemmer
 stemmer = LancasterStemmer()
-from train import training_data
+from train_general import training_data
 corpus_words = {}
 class_words = {}
 classes = list(set([a['class'] for a in training_data]))
