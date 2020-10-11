@@ -1,5 +1,5 @@
 numpy==1.14.5
-requests==2.18.4
+requests==2.20.0
 twilio==6.16.0
 urllib3==1.24.2
 SpeechRecognition==3.8.1
